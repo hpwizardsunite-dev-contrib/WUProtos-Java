@@ -1,5 +1,5 @@
-# pogoprotos-java
-Provides compiled java bindings from https://github.com/Furtif/POGOProtos
+# wuprotos-java
+Provides compiled java bindings from [WUProtos](https://github.com/Furtif/POGOProtos)
 
 
 The latest protos can be imported into any maven project by adding the following to your pom.xml
