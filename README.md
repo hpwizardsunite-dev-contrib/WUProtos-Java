@@ -1,5 +1,11 @@
-# wuprotos-java
-Provides compiled java bindings from [WUProtos](https://github.com/Furtif/POGOProtos)
+<!-- define variables -->
+[1.1]: http://i.imgur.com/M4fJ65n.png (ATTENTION)
+
+WUProtos-Java [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUProtos-Java.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUProtos-Java)
+===================
+
+![alt text][1.1] <strong><em>`The contents of this repo are a proof of concept and are for educational use only`</em></strong>![alt text][1.1]<br/>
+Provides compiled java bindings from [WUProtos](https://github.com/Furtif/WUProtos)
 
 
 The latest protos can be imported into any maven project by adding the following to your pom.xml
