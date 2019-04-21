@@ -5,10 +5,7 @@ import com.google.protobuf.util.JsonFormat;
 import wuprotos.atlas.proto.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
 import wuprotos.niantic.platform.gamemaster.DownloadGmTemplatesResponseProtoOuterClass.DownloadGmTemplatesResponseProto;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 
 
 public class GameDataWrapperReader {
@@ -30,7 +27,9 @@ public class GameDataWrapperReader {
     public static void main(String... args) throws Exception {
         GameDataWrapperReader reader = new GameDataWrapperReader();
         ClientGameDataWrapper response = reader.read();
-        reader.writeJSON(response, System.out);
+        try (FileOutputStream fos = new FileOutputStream("GameDataWrapper.json")) {
+            reader.writeJSON(response, fos);
+        }
 
     }
 
