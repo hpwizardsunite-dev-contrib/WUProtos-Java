@@ -2,7 +2,7 @@ package wuprotos;
 
 import com.google.protobuf.util.JsonFormat;
 import WUProtos.Data.Client.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
-import WUProtos.Networking.Responses.DownloadGmTemplatesResponseOuterClass.DownloadGmTemplatesResponse;
+import WUProtos.Networking.Responses.DownloadGameMasterTemplatesResponseOuterClass.DownloadGameMasterTemplatesResponse;
 
 import java.io.*;
 
@@ -29,6 +29,5 @@ public class GameDataWrapperReader {
         try (FileOutputStream fos = new FileOutputStream("GameDataWrapper.json")) {
             reader.writeJSON(response, fos);
         }
-
     }
 }
