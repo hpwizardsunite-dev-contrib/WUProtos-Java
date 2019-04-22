@@ -2,7 +2,7 @@ package wuprotos;
 
 import com.google.protobuf.util.JsonFormat;
 import WUProtos.Data.Client.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
-import WUProtos.Networking.Responses.DownloadGameMasterTemplatesResponseOuterClass.DownloadGameMasterTemplatesResponse;
+import WUProtos.Networking.Platform.Responses.DownloadGameMasterTemplatesResponseOuterClass.DownloadGameMasterTemplatesResponse;
 
 import java.io.*;
 
