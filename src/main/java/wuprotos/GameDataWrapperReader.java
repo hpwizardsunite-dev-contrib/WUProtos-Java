@@ -1,9 +1,8 @@
 package wuprotos;
 
-
 import com.google.protobuf.util.JsonFormat;
-import wuprotos.atlas.proto.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
-import wuprotos.niantic.platform.gamemaster.DownloadGmTemplatesResponseProtoOuterClass.DownloadGmTemplatesResponseProto;
+import WUProtos.Data.Client.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
+import WUProtos.Networking.Responses.DownloadGmTemplatesResponseOuterClass.DownloadGmTemplatesResponse;
 
 import java.io.*;
 
@@ -32,6 +31,4 @@ public class GameDataWrapperReader {
         }
 
     }
-
-
 }
