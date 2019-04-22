@@ -1,8 +1,8 @@
 package wuprotos;
 
 import com.google.protobuf.util.JsonFormat;
-import wuprotos.data.client.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
-import wuprotos.networking.responses.DownloadGmTemplatesResponseOuterClass.DownloadGmTemplatesResponse;
+import WUProtos.Data.Client.ClientGameDataWrapperOuterClass.ClientGameDataWrapper;
+import WUProtos.Networking.Responses.DownloadGmTemplatesResponseOuterClass.DownloadGmTemplatesResponse;
 
 import java.io.IOException;
 import java.io.InputStream;
