@@ -5,7 +5,7 @@
 
     <groupId>com.pokebattler</groupId>
     <artifactId>WUProtos</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.6.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>WUProtos-Java</name>
@@ -157,7 +157,7 @@
                 <version>0.5.1</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <protoSourceRoot>${basedir}/WUProtos/src</protoSourceRoot>
+                    <protoSourceRoot>${basedir}/WUProtos2/src</protoSourceRoot>
                 </configuration>
                 <executions>
                     <execution>

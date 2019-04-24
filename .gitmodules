@@ -1,3 +1,6 @@
 [submodule "WUProtos"]
 	path = WUProtos
 	url = https://github.com/Furtif/WUProtos.git
+[submodule "WUProtos2"]
+	path = WUProtos2
+	url = git@github.com:hpwizardsunite-dev-contrib/WUProtos.git

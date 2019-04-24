@@ -23,7 +23,7 @@ The latest protos can be imported into any maven project by adding the following
 Quick build instructions
 
 1. Pull latest WUProtos and update submodule in git
-  * `git submodule update --init --recursive && cd WUProtos && git pull origin master && cd .. && git add . && git commit -m "update protos" && git push`
+  * `git submodule update --init --recursive && cd WUProtos && git pull origin master && cd .. && git add . && git commit -m "update protos"`
 2. Build project 
   * `mvn install`
   * ---OR---
