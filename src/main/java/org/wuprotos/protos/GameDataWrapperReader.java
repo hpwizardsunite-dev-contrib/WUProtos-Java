@@ -1,8 +1,7 @@
-package wuprotos;
+package org.wuprotos.protos;
 
 import WUProtos.Data.GameDataWrapperOuterClass.GameDataWrapper;
 import com.google.protobuf.util.JsonFormat;
-import WUProtos.Networking.Platform.Responses.DownloadGameMasterTemplatesResponseOuterClass.DownloadGameMasterTemplatesResponse;
 
 import java.io.*;
 
