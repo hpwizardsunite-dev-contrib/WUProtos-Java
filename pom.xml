@@ -4,7 +4,7 @@
 
     <groupId>com.pokebattler.wu</groupId>
     <artifactId>wuprotos</artifactId>
-    <version>0.6.0</version>
+    <version>0.6.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>wuprotos Java</name>
