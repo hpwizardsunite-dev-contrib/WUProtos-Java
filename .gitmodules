@@ -1,3 +1,4 @@
 [submodule "WUProtos"]
 	path = WUProtos
 	url = https://github.com/Furtif/WUProtos.git
+	branch = master
