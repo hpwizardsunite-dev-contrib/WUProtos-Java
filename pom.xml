@@ -157,7 +157,7 @@
                 <version>0.5.1</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <protoSourceRoot>${basedir}/WUProtos2/src</protoSourceRoot>
+                    <protoSourceRoot>${basedir}/WUProtos/src</protoSourceRoot>
                 </configuration>
                 <executions>
                     <execution>
