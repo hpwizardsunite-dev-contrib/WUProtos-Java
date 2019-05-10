@@ -1,7 +1,7 @@
 <!-- define variables -->
 [1.1]: http://i.imgur.com/M4fJ65n.png (ATTENTION)
 
-WUProtos-Java [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUProtos-Java.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUProtos-Java)
+WUProtos-Java [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUProtos-Java.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUProtos-Java) [![Discord](https://img.shields.io/badge/Discord-Online-blue.svg)](https://discord.gg/mFH2D34)
 ===================
 
 ![alt text][1.1] <strong><em>`The contents of this repo are a proof of concept and are for educational use only`</em></strong>![alt text][1.1]<br/>
