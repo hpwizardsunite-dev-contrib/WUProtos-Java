@@ -4,7 +4,7 @@
 
     <groupId>com.pokebattler.wu</groupId>
     <artifactId>wuprotos</artifactId>
-    <version>0.8.0</version>
+    <version>0.8.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>wuprotos Java</name>
@@ -21,7 +21,7 @@
         <url>https://github.com/hpwizardsunite-dev-contrib/WUProtos-Java</url>
         <connection>scm:git:git@github.com:hpwizardsunite-dev-contrib/WUProtos-Java.git</connection>
         <developerConnection>scm:git:git@github.com:hpwizardsunite-dev-contrib/WUProtos-Java.git</developerConnection>
-      <tag>wuprotos-0.8.0</tag>
+      <tag>wuprotos-0.6.0</tag>
   </scm>
     <distributionManagement>
         <snapshotRepository>
