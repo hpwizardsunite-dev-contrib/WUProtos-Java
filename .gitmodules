@@ -1,4 +1,4 @@
 [submodule "WUProtos"]
 	path = WUProtos
-	url = https://github.com/Furtif/WUProtos.git
+	url = https://github.com/hpwizardsunite-dev-contrib/WUProtos.git
 	branch = master
